@@ -1,3 +1,12 @@
+/**
+ * 
+ * @author Joanna Turner
+ * @author Dante Arcuri
+ * CSCI306 Software Engineering Section B
+ * C11A DrawPlay
+ *
+ */
+
 import javax.swing.JPanel;
 import java.awt.*;
 import java.awt.geom.*;
