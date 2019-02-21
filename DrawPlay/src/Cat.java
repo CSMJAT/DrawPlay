@@ -36,6 +36,9 @@ public class Cat {
 		g2.fillOval(x, y+10, EYE_WIDTH, EYE_HEIGHT);
 		x += EYE_SEPARATION;
 		g2.fillOval(x, y, EYE_WIDTH, EYE_HEIGHT);
+		//Draw nose
+		g2.setColor(Color.orange);
+		g2.fillOval(x-10, y+25, 10, 10);
 		// Draw the mouth
 		g2.setColor(Color.pink);
 		x = catX + MOUTH_X;
